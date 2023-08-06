@@ -50,10 +50,10 @@
     }
     &__dashboardContainer {
         position: absolute;
-        background-color: white;
-        bottom: -68vh;
-        left: 0;
-        height: 70vh;
+        background-color: rgba(255, 255, 255, 0.274);
+        backdrop-filter: blur(4px);
+        transition: all 1s ease-in-out;
+        height: 65vh;
         width: 100vw;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
@@ -61,11 +61,23 @@
     }
     &__buttonDash {
         position: absolute;
+        background-color: rgba(255, 255, 255, 0.274);
+        backdrop-filter: blur(4px);
         border-radius: 2rem;
-        top: -7%;
+        top: -5%;
         left: 50%;
         transform: translateX(-50%);
         border: none;
     }
     
 }
+
+.main__dashboardContainer.closed {
+    /* Styles pour la position fermée */
+    bottom: -62vh;
+  }
+  
+  .main__dashboardContainer.open {
+    /* Styles pour la position ouverte */
+    bottom: 0;
+  }
