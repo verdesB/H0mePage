@@ -37,13 +37,15 @@
         gap: 1rem;
     }
 
-    &__button {
+    &__buttondark {
+        height: 3rem;
+        width: 3rem;
 
         border: none;
         /* Pas de bordure */
         background-color: rgba(255, 255, 255, 0.301);
         backdrop-filter: blur(5px);
-        
+        background-image: url(../icons/DarkMode2.svg);
         padding: 0;
         /* Rembourrage */
         text-align: center;
@@ -53,16 +55,36 @@
         display: inline-block;
         /* Affichage en ligne */
         
-        border: 1px solid white;
-        border-radius: 1rem;
+        
+        border-radius: 2rem;
+        cursor: pointer;
+        /* Curseur en forme de main */
+    }
+    &__buttonuser {
+        height: 3rem;
+        width: 3rem;
+
+        border: none;
+        /* Pas de bordure */
+        background-color: rgba(255, 255, 255, 0.301);
+        backdrop-filter: blur(5px);
+        background-image: url(../icons/user.svg);
+        padding: 0;
+        /* Rembourrage */
+        text-align: center;
+        /* Texte centré */
+        text-decoration: none;
+        /* Pas de soulignement */
+        display: inline-block;
+        /* Affichage en ligne */
+        
+       
+        border-radius: 2rem;
         cursor: pointer;
         /* Curseur en forme de main */
     }
 
-    &__buttonImg {
-        width: 3rem; /* Largeur de l'image */
-        height: 3rem; /* Hauteur de l'image */
-    }
+   
 
 
 
