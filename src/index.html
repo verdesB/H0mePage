@@ -22,26 +22,28 @@
             
         </nav>
     </header>
-    <main>
-        <div>
-            <form>
-                <input type="text" placeholder="Rechercher">
-                <button type="submit"><img></button>
+    <main class="main">
+        <div class="main__searchContainer">
+            <form class="main__search">
+                <input class="main__inputSearch" type="text" placeholder="Rechercher">
+                <button class="main__buttonSearch" type="submit"><img class="main__buttonImg" src="./assets/icons/search.svg"></button>
             </form>
         </div>
-        <div>
-            <div>
+        <div class="main__dashboardContainer">
+            <button class="main__buttonDash"><img class="main__buttonImg" src="./assets/icons/upArrow.svg" alt=""></button>
+            <div class="main__favoriteContainer">
                 <!-- favoris ---> 
             </div>
-            <div>
+            <div class="main__todolistContainer">
                 <!-- todo list ---> 
             </div>
-            <div>
+            <div class="main__cheatContainer">
                 <!-- cheat ---> 
             </div>
         </div>
 
     </main>
+    
 
 </body>
 
