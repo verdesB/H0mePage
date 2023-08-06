@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="Calque-1" vectornator:layerName="Calque 1">
+<path d="M316.219 284.906C288.605 284.826 266.174 307.167 266.094 334.781L264.906 734.781C264.826 762.395 287.167 784.826 314.781 784.906L714.781 786.094C742.395 786.174 764.826 763.833 764.906 736.219L766.094 336.219C766.174 308.605 743.833 286.174 716.219 286.094L316.219 284.906ZM336.062 331.469L696.062 332.531C707.108 332.563 716.032 341.548 716 352.594L714.969 712.594C714.937 723.639 705.952 732.564 694.906 732.531L334.906 731.469C323.861 731.437 314.937 722.452 314.969 711.406L316 351.406C316.032 340.361 325.017 331.437 336.062 331.469Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935"/>
+<path d="M765.5 248C765.5 219.557 788.557 196.5 817 196.5C845.443 196.5 868.5 219.557 868.5 248C868.5 276.443 845.443 299.5 817 299.5C788.557 299.5 765.5 276.443 765.5 248Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935" vectornator:layerName="Ovale 1"/>
+<path d="M528.867 395.821C539.035 395.851 547.254 404.118 547.224 414.286L547.226 561.876C542.919 561.863 544.616 561.868 539.044 561.852L491.124 561.712C480.956 561.682 484.324 561.692 484.413 561.692L484.724 414.104C484.754 403.936 493.021 395.717 503.189 395.746L528.867 395.821Z" fill="#000000" fill-rule="nonzero" opacity="0.99871" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935" vectornator:layerName="Rectangle 3"/>
+<path d="M532.774 663.617L578.684 590.184C588.41 574.629 581.422 561.975 563.076 561.922L468.012 561.645C449.666 561.591 442.605 574.204 452.239 589.816L497.72 663.515C507.355 679.127 523.049 679.172 532.774 663.617Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1.15935" vectornator:layerName="Courbe 1"/>
+</g>
+</svg>
