@@ -6,6 +6,8 @@ body {
     height: 100vh;
     background-image: url(../img/nebu.jpg);
     background-size: cover;
+    bottom: env(safe-area-inset-bottom);
+    margin-bottom: 44px;
     
     
     
