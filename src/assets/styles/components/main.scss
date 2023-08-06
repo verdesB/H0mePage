@@ -59,6 +59,7 @@
         width: 100vw;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
+        padding-bottom: calc(1em + env(safe-area-inset-bottom));
         bottom: env(safe-area-inset-bottom, 6rem);
         
         
