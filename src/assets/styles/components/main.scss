@@ -59,6 +59,7 @@
         width: 100vw;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
+        bottom: env(safe-area-inset-bottom)
         
     }
     &__buttonDash {
@@ -70,6 +71,7 @@
         left: 50%;
         transform: translateX(-50%);
         border: none;
+        
     }
     
 }
@@ -77,9 +79,12 @@
 .main__dashboardContainer.closed {
     /* Styles pour la position fermée */
     bottom: -55vh;
+    
   }
   
   .main__dashboardContainer.open {
     /* Styles pour la position ouverte */
     bottom: 0;
+    
+    
   }
