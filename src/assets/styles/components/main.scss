@@ -89,6 +89,52 @@
         height: 2.5rem;
         width: 2rem;
     }
+    &__catContainer {
+        position: relative;
+        perspective: 1000px;
+        
+        height: 100%;
+        width: 100%;
+    }
+    &__favoriteContainer {
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        transform: rotateY(35deg);
+        
+        height: 80%;
+        width: 28%;
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.435);
+        backdrop-filter: blur(4px);
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    }
+    &__todolistContainer {
+        position: absolute;
+        left: 33.5% ;
+        top: 16%;
+        
+        
+        height: 68%;
+        width: 32%;
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.435);
+        backdrop-filter: blur(4px);
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    }
+    &__cheatContainer {
+        position: absolute;
+        left: 66%;
+        top: 10%;
+        transform: rotatey(-35deg);
+        
+        height: 80%;
+        width: 28%;
+        border-radius: 1rem;
+        background-color: rgba(255, 255, 255, 0.435);
+        backdrop-filter: blur(4px);
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    }
     
 }
 
