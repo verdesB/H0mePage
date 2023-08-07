@@ -1,22 +1,24 @@
+@use '../mixin.scss';
+
 .main {
     position: relative;
-    flex-grow: 1; 
+    flex-grow: 1;
     box-sizing: border-box;
     overflow: hidden;
     height: 70vh;
     width: 100vw;
-    
-    
-   
-    
+
+
+
+
     &__searchContainer {
         display: flex;
         box-sizing: border-box;
-        
+
         justify-content: center;
         text-align: center;
-        
-       
+
+
 
     }
 
@@ -26,12 +28,13 @@
         align-items: center;
         gap: 0.5rem;
         padding: 1rem 4rem;
-        
+
         height: 4vh;
         width: 100vw;
-        
+
 
     }
+
     &__inputSearch {
         border: 1px solid white;
         border-radius: 2rem;
@@ -40,6 +43,7 @@
         background-color: rgba(255, 255, 255, 0.301);
         backdrop-filter: blur(5px);
     }
+
     &__buttonSearch {
         height: 3rem;
         width: 3rem;
@@ -49,10 +53,12 @@
         background-color: rgba(255, 255, 255, 0.301);
         backdrop-filter: blur(5px);
     }
+
     &__buttonImg {
         height: 2.5rem;
         width: 2rem;
     }
+
     &__dashboardContainer {
         position: absolute;
         background-color: rgba(255, 255, 255, 0.274);
@@ -64,9 +70,10 @@
         border-top-right-radius: 1rem;
         padding-bottom: calc(1em + env(safe-area-inset-bottom));
         bottom: env(safe-area-inset-bottom, 6rem);
-        
-        
+
+
     }
+
     &__buttonDash {
         position: absolute;
         background-color: rgba(255, 255, 255, 0.274);
@@ -80,75 +87,97 @@
         background-size: cover;
         width: 3rem;
         height: 3rem;
-        
+
     }
+
     &__buttonDashOpen {
         background-image: url(../icons/downArrow.svg);
     }
+
     &__buttonImgdash {
         height: 2.5rem;
         width: 2rem;
     }
+
     &__catContainer {
-        position: relative;
-        perspective: 1000px;
-        height: 100%;
-        width: 100%;
-        overflow-y: scroll;
-        scrollbar-color: rebeccapurple green;
-        scrollbar-width: thin;
+        @include smallTablets {
+            position: relative;
+            perspective: 1000px;
+            height: 100%;
+            width: 100%;
+            overflow-y: scroll;
+            scrollbar-color: rebeccapurple green;
+            scrollbar-width: thin;
+
+        }
+       
     }
+
     &__favoriteContainer {
-        position: absolute;
+        @include smallTablets {
+            position: absolute;
         left: 5%;
         top: 10%;
         transform: rotateY(35deg);
-        
+
         height: 120%;
         width: 28%;
         border-radius: 1rem;
         background-color: rgba(255, 255, 255, 0.435);
         backdrop-filter: blur(4px);
         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+        }
+        
     }
+
     &__todolistContainer {
-        position: absolute;
-        left: 33.5% ;
-        top: 16%;
-        
-        
-        height: 68%;
-        width: 32%;
-        border-radius: 1rem;
-        background-color: rgba(255, 255, 255, 0.435);
-        backdrop-filter: blur(4px);
-        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        @include smallTablets {
+            position: absolute;
+            left: 33.5%;
+            top: 16%;
+
+
+            height: 68%;
+            width: 32%;
+            border-radius: 1rem;
+            background-color: rgba(255, 255, 255, 0.435);
+            backdrop-filter: blur(4px);
+            box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+        }
+
     }
+
     &__cheatContainer {
-        position: absolute;
+        @include smallTablets {
+            position: absolute;
         left: 66%;
         top: 10%;
         transform: rotatey(-35deg);
-        
+
         height: 80%;
         width: 28%;
         border-radius: 1rem;
         background-color: rgba(255, 255, 255, 0.435);
         backdrop-filter: blur(4px);
         box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+        }
+        
     }
-    
+
 }
 
 .main__dashboardContainer.closed {
     /* Styles pour la position fermée */
     bottom: -55vh;
-    
-  }
-  
-  .main__dashboardContainer.open {
+
+}
+
+.main__dashboardContainer.open {
     /* Styles pour la position ouverte */
     bottom: 0;
-    
-    
-  }
+
+
+}
